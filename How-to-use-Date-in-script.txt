@@ -1,0 +1,6 @@
+date -d yesterday +%d-%m-%Y     (Linux yesterday)
+date -d today +%d-%m-%Y         (Linux today)
+date -d tomorrow +%d-%m-%Y      (Linux tomorrow)
+TZ=GMT+24 date +%d-%m-%Y        (Solaris yesterday)
+date +%Y-%m-%d                  (Solaris today)
+TZ=GMT-24 date +%d-%m-%Y        (Solaris tomorrow)
